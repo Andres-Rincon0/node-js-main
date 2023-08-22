@@ -30,5 +30,5 @@ Para comenzar a utilizar Node.js, sigue estos pasos:
 
 👤 **Andres Rincon**
 
-- GitHub: [@user]([https://github.com/user](https://github.com/Andres-Rincon0/node-js-main))
+- GitHub: https://github.com/Andres-Rincon0/node-js-main
 
