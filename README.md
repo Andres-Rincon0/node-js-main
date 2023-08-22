@@ -1,4 +1,4 @@
-# Introducción a Node.js
+# Introducción a Node.js 🖥️
 
 ![Node.js Logo](nodejs-logo.png)
 
@@ -32,14 +32,3 @@ Para comenzar a utilizar Node.js, sigue estos pasos:
 
 - GitHub: [@user]([https://github.com/user](https://github.com/Andres-Rincon0/node-js-main))
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/use/repository/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
