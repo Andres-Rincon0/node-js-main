@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "productName": "Apple",
+        "image": "🍎",
+        "from": "Spain",
+        "nutrients": "Vitamina C, Vitamina A,Vitaminas del complejo B, Ácido fólico (vitamina B9) ",
+        "quantity": "4 🍎",
+        "price": 6.50,
+        "organic": true,
+        "description": "An apple is a round or slightly oval fruit that comes from the apple tree. It comes in various colors, such as red, green, or yellow, and can have different textures, ranging from soft to crisp. It's rich in fiber, vitamins (like C and some B vitamins), and antioxidants. Its taste can be sweet or tart depending on the variety, and it's versatile in cooking, used in both sweet and savory dishes. The apple is known for its nutritional value and its role in culture and history."
+    },
+    {
+        "id":1,
+        "productName": "Grapes",
+        "image": "🍇",
+        "from": "Portugal",
+        "nutrients": "Vitamina C, Vitamina B6 (piridoxina), Vitamina K, Vitamina B2 (riboflavina),Vitamina B3 (niacina) ",
+        "quantity": "250g 🍇",
+        "price": 5.00,
+        "organic": false,
+        "description": "Grapes are small round or elongated fruits that grow in clusters on vines. They come in a variety of colors, such as green, red, and purple. They are juicy and sweet, although their taste can vary depending on the variety. Grapes contain vitamins like C and K, as well as beneficial antioxidants for health. They can be eaten fresh or used to make juices, wines, and raisins. Grapes are popular worldwide and are enjoyed as snacks and in various culinary preparations.."
+    },
+    {
+        "id":2,
+        "productName": "Watermelon",
+        "image": "🍉",
+        "from": "Portugal",
+        "nutrients": "Vitamin C, Vitamin A, Vitamin B6, Vitamin B5 (Pantothenic Acid), Potassium",
+        "quantity": "3 🍉",
+        "price": 5.50,
+        "organic": true,
+        "description": "Watermelon is a large, juicy fruit with a green rind and sweet red or pink flesh. It's hydrating and refreshing, consisting of over 90% water. Commonly enjoyed in the summertime, it's often sliced and eaten as a cooling treat."
+    },
+    {
+        "id":3,
+        "productName": "Orange",
+        "image": "🍊",
+        "from": "France",
+        "nutrients": "Vitamin A, Vitamin K, Vitamin C, Vitamin B-complex",
+        "quantity": "20 🍊",
+        "price": 3.00,
+        "organic": true,
+        "description": "An orange is a round citrus fruit with a bright orange peel. Its juicy segments are sweet and tangy in flavor. Oranges are known for being rich in vitamin C, which supports the immune system and skin health. They also provide dietary fiber and other essential nutrients. Oranges can be eaten as a snack, juiced, or used in various culinary dishes and beverages."
+    },
+    {
+        "id":4,
+        "productName": "banana",
+        "image": "🍌",
+        "from": "Germany",
+        "nutrients": "Vitamin B6, Vitamin C, Vitamin B9 (Folate), Minerals ",
+        "quantity": "2 🍌",
+        "price": 2.00,
+        "organic": false,
+        "description": "A banana is a curved, yellow fruit with a soft, sweet interior. It's rich in vitamins like B6 and C, as well as minerals like potassium. The peel is easily removable, making it a convenient and portable snack. Bananas are commonly eaten on their own or added to various dishes for added flavor and nutrition.."
+    }
+]
