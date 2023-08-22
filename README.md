@@ -22,13 +22,30 @@ Para comenzar a utilizar Node.js, sigue estos pasos:
 
 3. **Verificación**: Después de la instalación, abre una terminal y ejecuta los siguientes comandos para verificar que Node.js y NPM se hayan instalado correctamente:
    
-   ```sh
-   node -v
-   npm -v
+   pason para la instalacion en linux
+npm install node
+npm install 20 (instala la version 20)
+npm use 20 (para usar las version 20)
+
 
 ## Authors
 
 👤 **Andres Rincon**
 
 - GitHub: https://github.com/Andres-Rincon0/node-js-main
+
+<h1>Dependecias</h1>
+
+<h3>Nodemon</h3>
+
+<p>Nodemon reinicia la aplicacion de Node.js segun los cambios que se vayan haciendo</p>
+
+<h2>instalacion del paquete </h2>
+<strong> npm i -D nodemon</strong> 
+
+<h3>Slugify</h3>
+<p>Convierte texto en cadenas URL-amigables y legibles para humanos</p>
+
+<h2>instalacion del paquete </h2>
+<strong>npm i slugify </strong>
 
