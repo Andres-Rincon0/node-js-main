@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900">
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png">
+    <link rel="icon"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png">
 
 
     <title>{%PRODUCTNAME%} {%IMAGE%} /// NODE FARM</title>
@@ -13,28 +15,28 @@
     <style>
         *,
         *::before,
-        *::after{
+        *::after {
             margin: 0;
             padding: 0;
             box-sizing: inherit;
         }
 
-        html{
+        html {
             font-size: 62.5%;
             box-sizing: border-box;
         }
 
-        body{
+        body {
             padding: 5rem 5rem 10rem;
             line-height: 1.7;
             font-family: 'Nunito Sans', sans-serif;
             color: #000000;
             min-height: 100vh;
-            background: linear-gradient(to bottom right , hsl(0, 0%, 0%), #fd0000);
+            background: linear-gradient(to bottom right, hsl(0, 0%, 0%), #fd0000);
         }
 
-        h1{
-            font-family: 'Megrim' , sans-serif;
+        h1 {
+            font-family: 'Megrim', sans-serif;
             font-size: 6rem;
             color: rgb(255, 255, 255);
             transform: skewY(-5deg);
@@ -43,7 +45,7 @@
             word-spacing: 3px;
         }
 
-        h1::before{
+        h1::before {
             content: '';
             display: block;
             height: 65%;
@@ -51,18 +53,18 @@
             position: absolute;
             top: 105%;
             left: 50%;
-            background: linear-gradient(to bottom right , hsl(0, 100%, 50%), #000000);
+            background: linear-gradient(to bottom right, hsl(0, 100%, 50%), #000000);
             opacity: 0.8;
             z-index: -1;
-            transform: skewY(370deg) translate(-50% , -50%);
+            transform: skewY(370deg) translate(-50%, -50%);
         }
 
-        .container{
+        .container {
             width: 95rem;
             margin: 0 auto;
         }
 
-        .product{
+        .product {
             width: 60rem;
             margin: 0 auto;
             margin-top: 9rem;
@@ -71,13 +73,13 @@
             position: relative;
         }
 
-        .product_hero{
+        .product_hero {
             position: relative;
             height: 22rem;
             overflow: hidden;
         }
-        
-        .product_hero::before{
+
+        .product_hero::before {
             content: '';
             display: block;
             height: 100%;
@@ -85,59 +87,59 @@
             position: absolute;
             top: 0;
             left: 0;
-            background-image: linear-gradient(to bottom right , hsl(0, 100%, 50%), #000000);
+            background-image: linear-gradient(to bottom right, hsl(0, 100%, 50%), #000000);
             opacity: 0.5;
             z-index: 100;
         }
 
-        .product_emoji{
+        .product_emoji {
             font-size: 15rem;
             position: absolute;
         }
 
-        .product_emoji--1{
+        .product_emoji--1 {
             top: -4rem;
             left: -2rem;
             z-index: 10;
         }
 
-        .product_emoji--2{
+        .product_emoji--2 {
             top: -6rem;
             left: 9rem;
         }
 
-        .product_emoji--3{
+        .product_emoji--3 {
             top: -4rem;
             right: 15rem;
         }
 
-        .product_emoji--4{
+        .product_emoji--4 {
             top: -5rem;
             right: 2rem;
             z-index: 10;
         }
 
-        .product_emoji--5{
+        .product_emoji--5 {
             bottom: -9rem;
             left: 18rem;
         }
 
-        .product_emoji--6{
+        .product_emoji--6 {
             bottom: -8rem;
             left: 5rem;
         }
 
-        .product_emoji--7{
+        .product_emoji--7 {
             bottom: -12rem;
             right: 14rem;
         }
 
-        .product_emoji--8{
+        .product_emoji--8 {
             bottom: -8rem;
             right: -2rem;
         }
 
-        .product_emoji--9{
+        .product_emoji--9 {
             top: -7rem;
             left: 19rem;
         }
@@ -149,14 +151,14 @@
             z-index: 1000;
             height: 11rem;
             width: 11rem;
-            background-image: linear-gradient(to bottom right , hsl(0, 0%, 0%), #ff0000);
+            background-image: linear-gradient(to bottom right, hsl(0, 0%, 0%), #ff0000);
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 50%;
         }
 
-        .product_organic h5{
+        .product_organic h5 {
             font-weight: 900;
             text-transform: uppercase;
             font-size: 1.8rem;
@@ -177,28 +179,28 @@
             background-color: white;
             box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
             border-radius: 100rem;
-            padding:  0 2rem;
+            padding: 0 2rem;
             transition: all 0.3s;
             display: flex;
             align-items: center;
         }
 
         .product_black:hover,
-        .product_black:active{
+        .product_black:active {
             background-color: #79e17b;
         }
 
-        .product_name{
-            background: linear-gradient(to bottom right , #9be15d, #00e3ae);
+        .product_name {
+            background: linear-gradient(to bottom right, #9be15d, #00e3ae);
             padding: 1rem;
-            font-family: 'Megrim' , sans-serif;
+            font-family: 'Megrim', sans-serif;
             font-size: 4rem;
             color: white;
             text-align: center;
             word-spacing: 2px;
         }
 
-        .product_details{
+        .product_details {
             background-color: #eee;
             padding: 4rem 6rem;
             font-size: 1.9rem;
@@ -207,14 +209,14 @@
             grid-gap: 1.5rem;
         }
 
-        .product_description{
+        .product_description {
             padding: 5rem 6rem;
             font-size: 1.6rem;
             line-height: 1.8;
         }
 
         .product_link:link,
-        .product_link:visited{
+        .product_link:visited {
             display: block;
             background-color: #79e17b;
             color: white;
@@ -233,36 +235,38 @@
         }
 
         .product_link:hover,
-        .product_link:active{
+        .product_link:active {
             background-color: #9be15d;
             transform: scale(1.1) skewX(-20deg);
         }
 
-        .product_link span{
+        .product_link span {
             transform: skewX(20deg);
         }
 
-        .emoji-left{
+        .emoji-left {
             font-size: 2rem;
             margin-right: 1rem;
         }
 
-        .emoji-right{
+        .emoji-right {
             font-size: 2rem;
             margin-left: 1rem;
         }
 
-        .not-organic{
+        .not-organic {
             display: none;
         }
-
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>🍎 Node Farm 🍌</h1>
         <figure class="product">
-            <div class="product_organic {%NOT_ORGANIC   %}" ><h5>Organic</h5></div>
+            <div class="product_organic {%NOT_ORGANIC%}">
+                <h5>Organic</h5>
+            </div>
             <a href="/overview" class="product_black">
                 <span class="emoji-left">👈</span>Back
             </a>
@@ -295,6 +299,7 @@
             </p>
         </figure>
     </div>
-    
+
 </body>
+
 </html>

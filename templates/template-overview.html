@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900">
 
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png">
-    
+    <link rel="icon"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png">
+
     <title>NODE FARM</title>
 
     <style>
         *,
         *::before,
-        *::after{
+        *::after {
             margin: 0;
             padding: 0;
             box-sizing: inherit;
         }
 
-        html{
+        html {
             font-size: 62.5%;
             box-sizing: border-box;
         }
 
-        body{
+        body {
             padding: 5rem 5rem 10rem;
-            line-height: 1.7 ;
-            font-family: 'Nunito Sans' , sans-serif;
+            line-height: 1.7;
+            font-family: 'Nunito Sans', sans-serif;
             color: #555;
             min-height: 100vh;
-            background: linear-gradient(to bottom right, #9be15d , #00e3ae);
+            background: linear-gradient(to bottom right, #9be15d, #00e3ae);
         }
 
-        h1{
+        h1 {
             font-family: 'Megrim', sans-serif;
             font-size: 6rem;
             color: white;
@@ -43,7 +45,7 @@
             word-spacing: 3px;
         }
 
-        h1::before{
+        h1::before {
             content: '';
             display: block;
             height: 65%;
@@ -51,22 +53,22 @@
             position: absolute;
             top: 105%;
             left: 50%;
-            background: linear-gradient(to bottom right, #9be15d , #00e3ae);
+            background: linear-gradient(to bottom right, #9be15d, #00e3ae);
             opacity: 0.8;
             z-index: -1;
             transform: skewY(370deg) translate(-50%, -50%);
         }
 
-        .container{
+        .container {
             width: 95rem;
             margin: 0 auto;
         }
 
-        .cards-container{
+        .cards-container {
             margin-top: 8rem;
         }
 
-        .card{
+        .card {
             background: white;
             box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
             margin-bottom: 5rem;
@@ -75,7 +77,7 @@
             transition: all 0.5s;
         }
 
-        .card_emoji{
+        .card_emoji {
             font-size: 5.5rem;
             line-height: 1.2;
             padding: 1.5rem 6rem 0.5rem 1.5rem;
@@ -83,8 +85,8 @@
             transform: skewX(20deg);
         }
 
-        .card_title-box{
-            background: linear-gradient(to bottom right, #9be15d , #00e3ae);
+        .card_title-box {
+            background: linear-gradient(to bottom right, #9be15d, #00e3ae);
             margin-right: auto;
             display: flex;
             align-items: center;
@@ -92,24 +94,24 @@
         }
 
         .card_title {
-            font-family: 'Megrim',sans-serif;
-            color:  white;
+            font-family: 'Megrim', sans-serif;
+            color: white;
             font-size: 3.25rem;
             transform: skewX(20deg);
         }
 
-        .card_details{
+        .card_details {
             display: flex;
         }
 
-        .card_detail-box{
+        .card_detail-box {
             align-self: stretch;
             border-right: 1px solid #ddd;
             display: flex;
             align-items: center;
         }
 
-        .card_detail-box:last-child{
+        .card_detail-box:last-child {
             border: none;
         }
 
@@ -123,19 +125,19 @@
             font-weight: 900;
             text-transform: uppercase;
             font-size: 1.9rem;
-            color: linear-gradient(to bottom right, #9be15d , #00e3ae);
-            --webkit-backgroung-clip:text;
+            color: linear-gradient(to bottom right, #9be15d, #00e3ae);
+            --webkit-backgroung-clip: text;
             background-clip: text;
             margin-right: 1.7rem;
         }
 
-        .card_detail--price{
+        .card_detail--price {
             font-weight: 900;
             font-size: 1.9rem;
         }
 
         .card_link:link,
-        .card_link:visited{
+        .card_link:visited {
             flex: 0 0 auto;
             background-color: #79e17b;
             color: white;
@@ -152,42 +154,42 @@
         }
 
         .card_link:hover,
-        .card_link:active{
+        .card_link:active {
             background-color: #9be15d;
         }
 
-        .card_link span{
-            transform:  skewX(20deg);
+        .card_link span {
+            transform: skewX(20deg);
         }
 
-        .card:hover{
+        .card:hover {
             transform: skewX(-20deg) scale(1.08);
             box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.15);
         }
 
-        .emoji-left{
+        .emoji-left {
             font-size: 2rem;
             margin-right: 1rem;
         }
 
-        .emoji-right{
+        .emoji-right {
             font-size: 2rem;
             margin-left: 1rem;
         }
 
-        .not-organic{
+        .not-organic {
             display: none;
         }
-
-
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>🌽 Node Farm 🥦</h1>
+        <h1>🍊🍇 Node Farm 🍉🍎</h1>
         <div class="cards-container">
             {%PRODUCT_CARDS%}
         </div>
-    </div> 
+    </div>
 </body>
+
 </html>

@@ -35,7 +35,12 @@ fs.readFile('./txt/start.txt', 'utf-8', (err,data1)=>{
 });
 console.log('will read file');
  */
-/////////////////////////////////////////////Server
+
+//for
+
+///////////////////////////////////////////
+
+//Server
 
 const tempOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
 const tempCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf-8');
@@ -47,12 +52,14 @@ const dataObj = JSON.parse(data);
 const slugs = dataObj.map(el => slugify(el.productName))
 console.log(slugs);
 
+
+
 const server = http.createServer((req, res) => {
     const { query, pathname } = url.parse(req.url, true)
-    
+
     //overview page
     if (pathname === '/' || pathname === '/overview') {
-        
+
         res.writeHead(200, { 'Content-type': 'text/html' });
 
 
@@ -86,7 +93,7 @@ const server = http.createServer((req, res) => {
 
 });
 
-const port = 7000;
+const port = 5000;
 server.listen(port, '127.0.0.1', () => {
     console.log(`Listen to requests on port ${port}`);
 })
